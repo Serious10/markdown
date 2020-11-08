@@ -92,6 +92,23 @@ list
 
 
 
+
+```python
+pop_ele = list.pop(2)
+```
+
+
+```python
+pop_ele
+```
+
+
+
+
+    'b'
+
+
+
 ### 列表中修改元素
 
 
@@ -103,7 +120,49 @@ list
 
 
 
-    [8, 'hello world', 'b', 'c', 5, 7]
+    [8, 'hello world', 'c', 5, 7]
+
+
+
+### 查找列表元素
+
+
+```python
+list[4]
+```
+
+
+
+
+    7
+
+
+
+
+```python
+list[0:3]
+```
+
+
+
+
+    [8, 'hello world', 'c']
+
+
+
+#### list[x：y：z] 的意思是从x到y间隔z取数字
+
+#### 查找list中有几个函数
+
+
+```python
+len(list)
+```
+
+
+
+
+    5
 
 
 
